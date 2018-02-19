@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
     <style>
-        .vol-footer {
+        .footer {
             bottom: 0;
             width: 100%;
             height: 60px;
@@ -14,13 +14,15 @@
             padding-right: 15px;
             padding-left: 15px;
         }
+
     </style>
 </head>
 <body>
 <div class="container">
     <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #41b8f4;">
-        <a class="navbar-brand" href="https://github.com/ojongerius/fcc-home"><i class="fa fa-mail-reply"
-                                                                                 aria-hidden="true"></i></a>
+        <a class="navbar-brand" href="https://github.com/ojongerius/fcc-home"
+           aria-label="Link to freeCodeCamp projects"><i class="fa fa-mail-reply"
+                                                         aria-hidden="true"></i></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -42,52 +44,62 @@
         <p>A portfolio mockup for <a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a></p>
         <div class="row">
             <div class="col">
-                <a href="http://www.0tt0.net/post/" target="_blank"><img
-                        class="img-responsive img-thumbnail rounded w-50" src="images/blog.png"></a>
-                <div class="caption center-block">
-                    <p><em>Blog about my sabbatical</em></p>
+                <a href="http://www.0tt0.net/post/" target="_blank" aria-label="Link to blog"><img
+                        class="img-responsive img-thumbnail rounded w-50" src="images/blog.png"
+                        alt="Screenshot of blog"></a>
+                <div class="caption center-block font-italic font-weight-light">
+                    <p>Blog about my sabbatical</p>
                 </div>
             </div>
             <div class="col">
                 <a href="http://ojongerius.github.io/fcc-portfolio" target="_blank"> <img
-                        class="img-responsive img-thumbnail rounded w-50" src="images/portfolio.png"></a>
-                <div class="caption center-block">
-                    <p><em>This portfolio</em></p>
+                        class="img-responsive img-thumbnail rounded w-50" src="images/portfolio.png"
+                        alt="Screenshot of this portfolio"></a>
+                <div class="caption center-block font-italic font-weight-light">
+                    <p>This portfolio</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <a href="http://vol.community" target="_blank"><img class="img-responsive img-thumbnail rounded w-50"
-                                                                    src="images/vol.community.png"></a>
-                <div class="caption center-block">
+                <a href="http://vol.community" target="_blank" aria-label="Link to vol.community"><img
+                        class="img-responsive img-thumbnail rounded w-50"
+                        src="images/vol.community.png"
+                        alt="Screenshot of vol.community"></a>
+                <div class="caption center-block font-italic font-weight-light">
                     <p><em>Vol Community (prototype)</em></p>
                 </div>
             </div>
             <div class="col">
-                <a href="#"><img class="img-responsive img-thumbnail rounded w-50" src="images/shopify.png"></a>
-                <div class="caption center-block">
-                    <p><em>Placeholder page (Shopify)</em></p>
+                <a href="#" aria-label="Placeholder link"><img class="img-responsive img-thumbnail rounded w-50"
+                                                               src="images/shopify.png"
+                                                               alt="Screenshot of Shopify (a placeholder)"></a>
+                <div class="caption center-block font-italic font-weight-light">
+                    <p>Placeholder page (Shopify)</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <a href="#" target="_blank"><img class="img-responsive img-thumbnail rounded w-50"
-                                                 src="images/twitter.png"></a>
-                <div class="caption center-block">
-                    <p><em>Placeholder (Twitter)</em></p>
+                <a href="#" target="_blank" aria-label="Placeholder link"><img
+                        class="img-responsive img-thumbnail rounded w-50"
+                        src="images/twitter.png"
+                        alt="Screenshot of Twitter (a placeholder)"></a>
+                <div class="caption center-block font-italic font-weight-light">
+                    <p>Placeholder (Twitter)</p>
                 </div>
             </div>
             <div class="col">
-                <a href="#"><img class="img-responsive img-thumbnail rounded w-50" src="images/shopify.png"></a>
-                <div class="caption center-block">
-                    <p><em>Placeholder (Shopify)</em></p>
+                <a href="#" aria-label="Placholder link"><img class="img-responsive img-thumbnail rounded w-50"
+                                                              src="images/shopify.png"
+                                                              alt="Screenshot of Shopify (a placeholder)"></a>
+                <div class="caption center-block font-italic font-weight-light">
+                    <p>Placeholder (Shopify)</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container" id="about">
+    <div class="container font-weight-light" id="about">
         <h2>About</h2>
         <p>
             Otto Jongerius recently moved to Wellington, New Zealand, in order to be with the love of his life, Ana, and
@@ -113,16 +125,19 @@
             Find Otto on LinkedIn/Twitter/GitHub, read his blog here or shoot him an email.
         </p>
     </div>
-    <div class="container vol-footer">
-        <button type="button" class="btn btn-light"><a href="https://github.com/ojongerius/fcc-home" target="_blank"
-                                                       aria-label="Home"><i class="fa fa-reply
+    <div class="container footer text-center">
+        <button type="button" class="btn btn-light" aria-label="Link to freeCodeCamp projects"><a
+                href="https://github.com/ojongerius/fcc-home" target="_blank"
+        ><i class="fa fa-reply
      text-muted" aria-hidden="true" title="Home"></i></a></button>
-        <button type="button" class="btn btn-light"><a href="https://www.twitter.com/xzu" target="_blank"
-                                                       aria-label="Twitter page"><i class="fa
+        <button type="button" class="btn btn-light" aria-label="Twitter page button"><a
+                href="https://www.twitter.com/xzu" target="_blank"
+                aria-label="Link to Twitter page"><i class="fa
     fa-twitter-square text-muted" aria-hidden="true" title="Twitter page"></i></a></button>
-        <button type="button" class="btn btn-light"><a href="https://github.com/ojongerius/fcc-portfolio"
-                                                       target="_blank"
-                                                       aria-label="Github project page">
+        <button type="button" class="btn btn-light" aria-label="freeCodeCamp button"><a
+                href="https://github.com/ojongerius/fcc-portfolio"
+                target="_blank"
+                aria-label="Github project page">
             <i class="fa fa-github-square text-muted" aria-hidden="true" title="Github project page"></i></a></button>
     </div>
 </div>
